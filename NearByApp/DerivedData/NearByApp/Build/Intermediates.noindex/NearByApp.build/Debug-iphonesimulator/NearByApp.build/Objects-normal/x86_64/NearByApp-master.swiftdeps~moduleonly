@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "651fd22632cc239aa69a12c3f6abefdc"
+build_time: [1594390181, 327846000]
+inputs:
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/ViewController.swift": [1594390173, 165584736]
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/AppDelegate.swift": [1594390173, 156944402]
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/SceneDelegate.swift": [1594390173, 163066076]
