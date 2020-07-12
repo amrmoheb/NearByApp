@@ -1,0 +1,373 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NearByPlacesResponseModel"
+- "Meta"
+- "Response"
+- "Group"
+- "GroupItem"
+- "Reasons"
+- "ReasonsItem"
+- "Venue"
+- "Category"
+- "Icon"
+- "Location"
+- "LabeledLatLng"
+- "VenuePage"
+- "SuggestedBounds"
+- "Ne"
+- "Warning"
+provides-nominal:
+- "9NearByApp0aB19PlacesResponseModelV"
+- "9NearByApp4MetaV"
+- "9NearByApp8ResponseV"
+- "9NearByApp5GroupV"
+- "9NearByApp9GroupItemV"
+- "9NearByApp7ReasonsV"
+- "9NearByApp11ReasonsItemV"
+- "9NearByApp5VenueV"
+- "9NearByApp8CategoryV"
+- "9NearByApp4IconV"
+- "9NearByApp8LocationV"
+- "9NearByApp13LabeledLatLngV"
+- "9NearByApp9VenuePageV"
+- "9NearByApp15SuggestedBoundsV"
+- "9NearByApp2NeV"
+- "9NearByApp7WarningV"
+provides-member:
+- ["9NearByApp0aB19PlacesResponseModelV", ""]
+- ["9NearByApp4MetaV", ""]
+- ["9NearByApp8ResponseV", ""]
+- ["9NearByApp5GroupV", ""]
+- ["9NearByApp9GroupItemV", ""]
+- ["9NearByApp7ReasonsV", ""]
+- ["9NearByApp11ReasonsItemV", ""]
+- ["9NearByApp5VenueV", ""]
+- ["9NearByApp8CategoryV", ""]
+- ["9NearByApp4IconV", ""]
+- ["9NearByApp8LocationV", ""]
+- ["9NearByApp13LabeledLatLngV", ""]
+- ["9NearByApp9VenuePageV", ""]
+- ["9NearByApp15SuggestedBoundsV", ""]
+- ["9NearByApp2NeV", ""]
+- ["9NearByApp7WarningV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "Category"
+- "Decodable"
+- "Double"
+- !private "FloatLiteralType"
+- "Group"
+- "GroupItem"
+- "Icon"
+- "Int"
+- !private "IntegerLiteralType"
+- "LabeledLatLng"
+- "Location"
+- "Meta"
+- "Ne"
+- "NearByPlacesResponseModel"
+- "Reasons"
+- "ReasonsItem"
+- "Response"
+- "String"
+- !private "StringLiteralType"
+- "SuggestedBounds"
+- "Venue"
+- "VenuePage"
+- "Warning"
+- !private "~="
+depends-member:
+- ["9NearByApp8CategoryV", "Bool"]
+- ["9NearByApp8CategoryV", "Icon"]
+- ["9NearByApp8CategoryV", "String"]
+- ["9NearByApp8CategoryV", "deinit"]
+- ["9NearByApp8CategoryV", "icon"]
+- ["9NearByApp8CategoryV", "id"]
+- ["9NearByApp8CategoryV", "init"]
+- ["9NearByApp8CategoryV", "name"]
+- ["9NearByApp8CategoryV", "pluralName"]
+- ["9NearByApp8CategoryV", "primary"]
+- ["9NearByApp8CategoryV", "shortName"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "address"]
+- !private ["Se", "categories"]
+- !private ["Se", "cc"]
+- !private ["Se", "city"]
+- !private ["Se", "code"]
+- !private ["Se", "count"]
+- !private ["Se", "country"]
+- !private ["Se", "crossStreet"]
+- !private ["Se", "distance"]
+- !private ["Se", "formattedAddress"]
+- !private ["Se", "groups"]
+- !private ["Se", "headerFullLocation"]
+- !private ["Se", "headerLocation"]
+- !private ["Se", "headerLocationGranularity"]
+- !private ["Se", "icon"]
+- !private ["Se", "iconPrefix"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "label"]
+- !private ["Se", "labeledLatLngs"]
+- !private ["Se", "lat"]
+- !private ["Se", "lng"]
+- !private ["Se", "location"]
+- !private ["Se", "meta"]
+- !private ["Se", "name"]
+- !private ["Se", "ne"]
+- !private ["Se", "pluralName"]
+- !private ["Se", "popularityByGeo"]
+- !private ["Se", "postalCode"]
+- !private ["Se", "primary"]
+- !private ["Se", "reasonName"]
+- !private ["Se", "reasons"]
+- !private ["Se", "requestId"]
+- !private ["Se", "response"]
+- !private ["Se", "shortName"]
+- !private ["Se", "state"]
+- !private ["Se", "suffix"]
+- !private ["Se", "suggestedBounds"]
+- !private ["Se", "suggestedRadius"]
+- !private ["Se", "summary"]
+- !private ["Se", "sw"]
+- !private ["Se", "text"]
+- !private ["Se", "totalResults"]
+- !private ["Se", "type"]
+- !private ["Se", "venue"]
+- !private ["Se", "venuePage"]
+- !private ["Se", "warning"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "stringValue"]
+- ["9NearByApp5GroupV", "GroupItem"]
+- ["9NearByApp5GroupV", "String"]
+- ["9NearByApp5GroupV", "deinit"]
+- ["9NearByApp5GroupV", "init"]
+- ["9NearByApp5GroupV", "items"]
+- ["9NearByApp5GroupV", "name"]
+- ["9NearByApp5GroupV", "type"]
+- ["9NearByApp9GroupItemV", "Reasons"]
+- ["9NearByApp9GroupItemV", "Venue"]
+- ["9NearByApp9GroupItemV", "deinit"]
+- ["9NearByApp9GroupItemV", "init"]
+- ["9NearByApp9GroupItemV", "reasons"]
+- ["9NearByApp9GroupItemV", "venue"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["9NearByApp4IconV", "String"]
+- ["9NearByApp4IconV", "deinit"]
+- ["9NearByApp4IconV", "iconPrefix"]
+- ["9NearByApp4IconV", "init"]
+- ["9NearByApp4IconV", "suffix"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["9NearByApp13LabeledLatLngV", "Double"]
+- ["9NearByApp13LabeledLatLngV", "String"]
+- ["9NearByApp13LabeledLatLngV", "deinit"]
+- ["9NearByApp13LabeledLatLngV", "init"]
+- ["9NearByApp13LabeledLatLngV", "label"]
+- ["9NearByApp13LabeledLatLngV", "lat"]
+- ["9NearByApp13LabeledLatLngV", "lng"]
+- ["9NearByApp8LocationV", "Double"]
+- ["9NearByApp8LocationV", "Int"]
+- ["9NearByApp8LocationV", "LabeledLatLng"]
+- ["9NearByApp8LocationV", "String"]
+- ["9NearByApp8LocationV", "address"]
+- ["9NearByApp8LocationV", "cc"]
+- ["9NearByApp8LocationV", "city"]
+- ["9NearByApp8LocationV", "country"]
+- ["9NearByApp8LocationV", "crossStreet"]
+- ["9NearByApp8LocationV", "deinit"]
+- ["9NearByApp8LocationV", "distance"]
+- ["9NearByApp8LocationV", "formattedAddress"]
+- ["9NearByApp8LocationV", "init"]
+- ["9NearByApp8LocationV", "labeledLatLngs"]
+- ["9NearByApp8LocationV", "lat"]
+- ["9NearByApp8LocationV", "lng"]
+- ["9NearByApp8LocationV", "postalCode"]
+- ["9NearByApp8LocationV", "state"]
+- ["9NearByApp4MetaV", "Int"]
+- ["9NearByApp4MetaV", "String"]
+- ["9NearByApp4MetaV", "code"]
+- ["9NearByApp4MetaV", "deinit"]
+- ["9NearByApp4MetaV", "init"]
+- ["9NearByApp4MetaV", "requestId"]
+- ["9NearByApp2NeV", "Double"]
+- ["9NearByApp2NeV", "deinit"]
+- ["9NearByApp2NeV", "init"]
+- ["9NearByApp2NeV", "lat"]
+- ["9NearByApp2NeV", "lng"]
+- ["9NearByApp0aB19PlacesResponseModelV", "Meta"]
+- ["9NearByApp0aB19PlacesResponseModelV", "Response"]
+- ["9NearByApp0aB19PlacesResponseModelV", "deinit"]
+- ["9NearByApp0aB19PlacesResponseModelV", "init"]
+- ["9NearByApp0aB19PlacesResponseModelV", "meta"]
+- ["9NearByApp0aB19PlacesResponseModelV", "response"]
+- ["9NearByApp7ReasonsV", "Int"]
+- ["9NearByApp7ReasonsV", "ReasonsItem"]
+- ["9NearByApp7ReasonsV", "count"]
+- ["9NearByApp7ReasonsV", "deinit"]
+- ["9NearByApp7ReasonsV", "init"]
+- ["9NearByApp7ReasonsV", "items"]
+- ["9NearByApp11ReasonsItemV", "String"]
+- ["9NearByApp11ReasonsItemV", "deinit"]
+- ["9NearByApp11ReasonsItemV", "init"]
+- ["9NearByApp11ReasonsItemV", "reasonName"]
+- ["9NearByApp11ReasonsItemV", "summary"]
+- ["9NearByApp11ReasonsItemV", "type"]
+- ["9NearByApp8ResponseV", "Group"]
+- ["9NearByApp8ResponseV", "Int"]
+- ["9NearByApp8ResponseV", "String"]
+- ["9NearByApp8ResponseV", "SuggestedBounds"]
+- ["9NearByApp8ResponseV", "Warning"]
+- ["9NearByApp8ResponseV", "deinit"]
+- ["9NearByApp8ResponseV", "groups"]
+- ["9NearByApp8ResponseV", "headerFullLocation"]
+- ["9NearByApp8ResponseV", "headerLocation"]
+- ["9NearByApp8ResponseV", "headerLocationGranularity"]
+- ["9NearByApp8ResponseV", "init"]
+- ["9NearByApp8ResponseV", "suggestedBounds"]
+- ["9NearByApp8ResponseV", "suggestedRadius"]
+- ["9NearByApp8ResponseV", "totalResults"]
+- ["9NearByApp8ResponseV", "warning"]
+- ["9NearByApp15SuggestedBoundsV", "Ne"]
+- ["9NearByApp15SuggestedBoundsV", "deinit"]
+- ["9NearByApp15SuggestedBoundsV", "init"]
+- ["9NearByApp15SuggestedBoundsV", "ne"]
+- ["9NearByApp15SuggestedBoundsV", "sw"]
+- ["9NearByApp5VenueV", "Category"]
+- ["9NearByApp5VenueV", "Double"]
+- ["9NearByApp5VenueV", "Location"]
+- ["9NearByApp5VenueV", "String"]
+- ["9NearByApp5VenueV", "VenuePage"]
+- ["9NearByApp5VenueV", "categories"]
+- ["9NearByApp5VenueV", "deinit"]
+- ["9NearByApp5VenueV", "id"]
+- ["9NearByApp5VenueV", "init"]
+- ["9NearByApp5VenueV", "location"]
+- ["9NearByApp5VenueV", "name"]
+- ["9NearByApp5VenueV", "popularityByGeo"]
+- ["9NearByApp5VenueV", "venuePage"]
+- ["9NearByApp9VenuePageV", "String"]
+- ["9NearByApp9VenuePageV", "deinit"]
+- ["9NearByApp9VenuePageV", "id"]
+- ["9NearByApp9VenuePageV", "init"]
+- ["9NearByApp7WarningV", "String"]
+- ["9NearByApp7WarningV", "deinit"]
+- ["9NearByApp7WarningV", "init"]
+- ["9NearByApp7WarningV", "text"]
+depends-nominal:
+- "9NearByApp8CategoryV"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "9NearByApp5GroupV"
+- "9NearByApp9GroupItemV"
+- "SH"
+- !private "s6HasherV"
+- "9NearByApp4IconV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "9NearByApp13LabeledLatLngV"
+- "9NearByApp8LocationV"
+- "9NearByApp4MetaV"
+- "9NearByApp2NeV"
+- "9NearByApp0aB19PlacesResponseModelV"
+- "9NearByApp7ReasonsV"
+- "9NearByApp11ReasonsItemV"
+- "9NearByApp8ResponseV"
+- "9NearByApp15SuggestedBoundsV"
+- "9NearByApp5VenueV"
+- "9NearByApp9VenuePageV"
+- "9NearByApp7WarningV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a446c9f89104343267d6126526827381"

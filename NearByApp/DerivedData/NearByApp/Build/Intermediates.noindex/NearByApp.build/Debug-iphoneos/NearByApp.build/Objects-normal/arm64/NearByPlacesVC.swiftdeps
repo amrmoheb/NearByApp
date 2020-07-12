@@ -1,0 +1,314 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NearByPlacesVC"
+provides-nominal:
+- "9NearByApp0aB8PlacesVCC"
+provides-member:
+- ["9NearByApp0aB8PlacesVCC", ""]
+provides-dynamic-lookup:
+- "CurrentModeLabel"
+- "DebugText"
+- "ModeBtn"
+- "ModeBtnClicked"
+- "NearByList"
+- "locationManager"
+- "presenter"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CLLocationManager"
+- "NearByPlacesPresenter"
+- "NearByPlacesVC"
+- "UIBarButtonItem"
+- "UILabel"
+- "UITableView"
+- "UITextView"
+- "UIViewController"
+depends-member:
+- ["So17CLLocationManagerC", "init"]
+- ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- !private ["So25CLLocationManagerDelegateP", "NearByPlacesPresenter"]
+- !private ["So25CLLocationManagerDelegateP", "StartLocationMonitoring"]
+- !private ["So25CLLocationManagerDelegateP", "presenter"]
+- ["s7CVarArgP", "CLLocationManager"]
+- !private ["s7CVarArgP", "NearByPlacesPresenter"]
+- !private ["s7CVarArgP", "StartLocationMonitoring"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "presenter"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "ModeBtnClicked"]
+- !private ["s28CustomDebugStringConvertibleP", "NearByPlacesPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "StartLocationMonitoring"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "presenter"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "ModeBtnClicked"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- !private ["s23CustomStringConvertibleP", "NearByPlacesPresenter"]
+- !private ["s23CustomStringConvertibleP", "StartLocationMonitoring"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "presenter"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "ModeBtnClicked"]
+- !private ["SE", "ModeBtnClicked"]
+- ["SQ", "CLLocationManager"]
+- !private ["SQ", "ModeBtnClicked"]
+- !private ["SQ", "NearByPlacesPresenter"]
+- !private ["SQ", "StartLocationMonitoring"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- !private ["SQ", "presenter"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "ModeBtnClicked"]
+- ["SH", "CLLocationManager"]
+- !private ["SH", "ModeBtnClicked"]
+- !private ["SH", "NearByPlacesPresenter"]
+- !private ["SH", "StartLocationMonitoring"]
+- ["SH", ""]
+- ["SH", "init"]
+- !private ["SH", "presenter"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "CLLocationManager"]
+- !private ["So8NSCodingP", "NearByPlacesPresenter"]
+- !private ["So8NSCodingP", "StartLocationMonitoring"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "presenter"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "CLLocationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "NearByPlacesPresenter"]
+- !private ["So26NSExtensionRequestHandlingP", "StartLocationMonitoring"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "presenter"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "CurrentModeLabel"]
+- ["So8NSObjectC", "DebugText"]
+- ["So8NSObjectC", "ModeBtn"]
+- ["So8NSObjectC", "ModeBtnClicked"]
+- ["So8NSObjectC", "NearByList"]
+- ["So8NSObjectC", "NearByPlacesPresenter"]
+- !private ["So8NSObjectC", "StartLocationMonitoring"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "presenter"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "CLLocationManager"]
+- !private ["So8NSObjectP", "NearByPlacesPresenter"]
+- !private ["So8NSObjectP", "StartLocationMonitoring"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "presenter"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["9NearByApp0aB15PlacesPresenterC", "ModeBtnClicked"]
+- !private ["9NearByApp0aB15PlacesPresenterC", "init"]
+- ["9NearByApp0aB8PlacesVCC", "CLLocationManager"]
+- ["9NearByApp0aB8PlacesVCC", "CurrentModeLabel"]
+- ["9NearByApp0aB8PlacesVCC", "DebugText"]
+- ["9NearByApp0aB8PlacesVCC", "ModeBtn"]
+- ["9NearByApp0aB8PlacesVCC", "ModeBtnClicked"]
+- ["9NearByApp0aB8PlacesVCC", "NearByList"]
+- ["9NearByApp0aB8PlacesVCC", "NearByPlacesPresenter"]
+- !private ["9NearByApp0aB8PlacesVCC", "StartLocationMonitoring"]
+- ["9NearByApp0aB8PlacesVCC", "UIBarButtonItem"]
+- ["9NearByApp0aB8PlacesVCC", "UILabel"]
+- ["9NearByApp0aB8PlacesVCC", "UITableView"]
+- ["9NearByApp0aB8PlacesVCC", "UITextView"]
+- ["9NearByApp0aB8PlacesVCC", "deinit"]
+- ["9NearByApp0aB8PlacesVCC", "init"]
+- ["9NearByApp0aB8PlacesVCC", "locationManager"]
+- ["9NearByApp0aB8PlacesVCC", "presenter"]
+- ["9NearByApp0aB8PlacesVCC", "viewDidLoad"]
+- ["9NearByApp0aB10PlacesViewP", "CLLocationManager"]
+- !private ["9NearByApp0aB10PlacesViewP", "NearByPlacesPresenter"]
+- !private ["9NearByApp0aB10PlacesViewP", "StartLocationMonitoring"]
+- !private ["9NearByApp0aB10PlacesViewP", "presenter"]
+- !private ["Sq", "ModeBtnClicked"]
+- ["So21UIAppearanceContainerP", "CLLocationManager"]
+- !private ["So21UIAppearanceContainerP", "NearByPlacesPresenter"]
+- !private ["So21UIAppearanceContainerP", "StartLocationMonitoring"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "presenter"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "CLLocationManager"]
+- !private ["So18UIContentContainerP", "NearByPlacesPresenter"]
+- !private ["So18UIContentContainerP", "StartLocationMonitoring"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "presenter"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "CLLocationManager"]
+- !private ["So18UIFocusEnvironmentP", "NearByPlacesPresenter"]
+- !private ["So18UIFocusEnvironmentP", "StartLocationMonitoring"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "presenter"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "CLLocationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "NearByPlacesPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "StartLocationMonitoring"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "presenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "CLLocationManager"]
+- ["So11UIResponderC", "CurrentModeLabel"]
+- ["So11UIResponderC", "DebugText"]
+- ["So11UIResponderC", "ModeBtn"]
+- ["So11UIResponderC", "ModeBtnClicked"]
+- ["So11UIResponderC", "NearByList"]
+- ["So11UIResponderC", "NearByPlacesPresenter"]
+- !private ["So11UIResponderC", "StartLocationMonitoring"]
+- ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "locationManager"]
+- ["So11UIResponderC", "presenter"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "CLLocationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "NearByPlacesPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "StartLocationMonitoring"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "presenter"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", "CLLocationManager"]
+- !private ["So20UIScrollViewDelegateP", "NearByPlacesPresenter"]
+- !private ["So20UIScrollViewDelegateP", "StartLocationMonitoring"]
+- !private ["So20UIScrollViewDelegateP", "presenter"]
+- ["So16UIStateRestoringP", "CLLocationManager"]
+- !private ["So16UIStateRestoringP", "NearByPlacesPresenter"]
+- !private ["So16UIStateRestoringP", "StartLocationMonitoring"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "presenter"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", "CLLocationManager"]
+- !private ["So21UITableViewDataSourceP", "NearByPlacesPresenter"]
+- !private ["So21UITableViewDataSourceP", "StartLocationMonitoring"]
+- !private ["So21UITableViewDataSourceP", "presenter"]
+- ["So19UITableViewDelegateP", "CLLocationManager"]
+- !private ["So19UITableViewDelegateP", "NearByPlacesPresenter"]
+- !private ["So19UITableViewDelegateP", "StartLocationMonitoring"]
+- !private ["So19UITableViewDelegateP", "presenter"]
+- ["So18UITraitEnvironmentP", "CLLocationManager"]
+- !private ["So18UITraitEnvironmentP", "NearByPlacesPresenter"]
+- !private ["So18UITraitEnvironmentP", "StartLocationMonitoring"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "presenter"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "CLLocationManager"]
+- !private ["So23UIUserActivityRestoringP", "NearByPlacesPresenter"]
+- !private ["So23UIUserActivityRestoringP", "StartLocationMonitoring"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "presenter"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "CLLocationManager"]
+- ["So16UIViewControllerC", "CurrentModeLabel"]
+- ["So16UIViewControllerC", "DebugText"]
+- ["So16UIViewControllerC", "ModeBtn"]
+- ["So16UIViewControllerC", "ModeBtnClicked"]
+- ["So16UIViewControllerC", "NearByList"]
+- ["So16UIViewControllerC", "NearByPlacesPresenter"]
+- !private ["So16UIViewControllerC", "StartLocationMonitoring"]
+- ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "locationManager"]
+- ["So16UIViewControllerC", "presenter"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NearByPlacesPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StartLocationMonitoring"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CLLocationManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NearByPlacesPresenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "StartLocationMonitoring"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "ModeBtnClicked"]
+depends-nominal:
+- "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "9NearByApp0aB15PlacesPresenterC"
+- "9NearByApp0aB8PlacesVCC"
+- "9NearByApp0aB10PlacesViewP"
+- !private "Sq"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/developer/Desktop/NearByApp/NearByApp/DerivedData/NearByApp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "19a8fef2caf0603998f829d8bfe06f73"

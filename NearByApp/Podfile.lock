@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+SPEC CHECKSUMS:
+  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
+
+PODFILE CHECKSUM: 89b2c07f00bf10e17bdb3d5c11ef6ca3e3c0d369
+
+COCOAPODS: 1.9.1

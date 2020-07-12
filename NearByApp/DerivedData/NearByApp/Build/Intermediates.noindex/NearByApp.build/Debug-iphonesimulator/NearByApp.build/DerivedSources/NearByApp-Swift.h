@@ -186,6 +186,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreLocation;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -217,6 +219,49 @@ SWIFT_CLASS("_TtC9NearByApp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9NearByApp15NearByPlaceCell")
+@interface NearByPlaceCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified Photo;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Name;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Adress;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@class UITextView;
+@class UITableView;
+@class CLLocationManager;
+@class CLLocation;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC9NearByApp14NearByPlacesVC")
+@interface NearByPlacesVC : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified DebugText;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified NearByList;
+- (void)viewDidLoad;
+- (IBAction)RealTimeSwitch:(id _Nonnull)sender;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NearByPlacesVC (SWIFT_EXTENSION(NearByApp)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 @class UIWindow;
 @class UIScene;
 
@@ -232,8 +277,6 @@ SWIFT_CLASS("_TtC9NearByApp13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC9NearByApp14ViewController")
 @interface ViewController : UIViewController
