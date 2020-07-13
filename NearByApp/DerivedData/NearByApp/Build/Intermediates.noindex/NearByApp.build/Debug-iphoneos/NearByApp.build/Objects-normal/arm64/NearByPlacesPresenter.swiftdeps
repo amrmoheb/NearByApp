@@ -22,7 +22,6 @@ provides-dynamic-lookup:
 - "GetNextPhoto"
 - "Interactor"
 - "IsRealTime"
-- "IsRealTimeMode"
 - "LoadImage"
 - "ModeBtnClicked"
 - "NearByPlaces"
@@ -43,7 +42,6 @@ depends-top-level:
 - !private "??"
 - "AnyObject"
 - "AssignmentPrecedence"
-- "Bool"
 - "BooleanLiteralType"
 - !private "CastingPrecedence"
 - "Data"
@@ -198,7 +196,6 @@ depends-member:
 - ["9NearByApp0aB16PlacesInteractorC", "init"]
 - ["9NearByApp0aB15PlacesPresenterC", "AppendDefaultImage"]
 - ["9NearByApp0aB15PlacesPresenterC", "AppendNOQutaImage"]
-- ["9NearByApp0aB15PlacesPresenterC", "Bool"]
 - ["9NearByApp0aB15PlacesPresenterC", "CurrentMode"]
 - ["9NearByApp0aB15PlacesPresenterC", "Data"]
 - ["9NearByApp0aB15PlacesPresenterC", "GetMarkAdress"]
@@ -212,7 +209,6 @@ depends-member:
 - ["9NearByApp0aB15PlacesPresenterC", "Int"]
 - !private ["9NearByApp0aB15PlacesPresenterC", "Interactor"]
 - ["9NearByApp0aB15PlacesPresenterC", "IsRealTime"]
-- ["9NearByApp0aB15PlacesPresenterC", "IsRealTimeMode"]
 - ["9NearByApp0aB15PlacesPresenterC", "LoadImage"]
 - ["9NearByApp0aB15PlacesPresenterC", "MarkPhotosResponseModel"]
 - ["9NearByApp0aB15PlacesPresenterC", "ModeBtnClicked"]
@@ -415,4 +411,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "38d55ec5b4e93895b13bb0fecb14dffe"
+interface-hash: "d61f954f84fc4b6dd4cdc989f5cad317"

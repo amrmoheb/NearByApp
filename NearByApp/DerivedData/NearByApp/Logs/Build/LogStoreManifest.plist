@@ -40,7 +40,7 @@
 			<key>uniqueIdentifier</key>
 			<string>033900B0-DAD5-4FC5-B759-8CC54E06F95A</string>
 		</dict>
-		<key>0430776B-966C-4820-9591-8DCB89BF0460</key>
+		<key>6BB34298-EACB-40F5-B56F-2C82AD6570FB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0430776B-966C-4820-9591-8DCB89BF0460.xcactivitylog</string>
+			<string>6BB34298-EACB-40F5-B56F-2C82AD6570FB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616275082.64775503</real>
+			<real>616331110.65567601</real>
 			<key>timeStoppedRecording</key>
-			<real>616275090.13298905</real>
+			<real>616331115.22454298</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>0430776B-966C-4820-9591-8DCB89BF0460</string>
+			<string>6BB34298-EACB-40F5-B56F-2C82AD6570FB</string>
 		</dict>
-		<key>19B98BF6-5555-453A-8671-34BA304B5CAB</key>
+		<key>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>19B98BF6-5555-453A-8671-34BA304B5CAB.xcactivitylog</string>
+			<string>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616276504.30286002</real>
+			<real>616328862.64721298</real>
 			<key>timeStoppedRecording</key>
-			<real>616276504.38205898</real>
+			<real>616328862.72968197</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>19B98BF6-5555-453A-8671-34BA304B5CAB</string>
+			<string>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9</string>
 		</dict>
-		<key>2DB7BAEC-A970-4FEE-8773-BAE8ADAE4F02</key>
+		<key>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2DB7BAEC-A970-4FEE-8773-BAE8ADAE4F02.xcactivitylog</string>
+			<string>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,557 +134,13 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616269327.62407994</real>
+			<real>616328841.878479</real>
 			<key>timeStoppedRecording</key>
-			<real>616269336.08076</real>
+			<real>616328844.54400396</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2DB7BAEC-A970-4FEE-8773-BAE8ADAE4F02</string>
-		</dict>
-		<key>495F0D29-C2CD-4534-A43A-AA8FE044CC6B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>495F0D29-C2CD-4534-A43A-AA8FE044CC6B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272427.93533301</real>
-			<key>timeStoppedRecording</key>
-			<real>616272428.04396105</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>495F0D29-C2CD-4534-A43A-AA8FE044CC6B</string>
-		</dict>
-		<key>5416E2C7-D1AD-4B52-BBF0-CB20151E4FBD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5416E2C7-D1AD-4B52-BBF0-CB20151E4FBD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616273376.68873703</real>
-			<key>timeStoppedRecording</key>
-			<real>616273380.42691696</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>5416E2C7-D1AD-4B52-BBF0-CB20151E4FBD</string>
-		</dict>
-		<key>579F7EE4-1747-44D1-9EA0-C2007AA50204</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>579F7EE4-1747-44D1-9EA0-C2007AA50204.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616275045.49630105</real>
-			<key>timeStoppedRecording</key>
-			<real>616275046.36712003</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>579F7EE4-1747-44D1-9EA0-C2007AA50204</string>
-		</dict>
-		<key>5E10AD57-DCE2-4E3E-89F6-56499244B301</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5E10AD57-DCE2-4E3E-89F6-56499244B301.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272611.19166505</real>
-			<key>timeStoppedRecording</key>
-			<real>616272615.46193898</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>5E10AD57-DCE2-4E3E-89F6-56499244B301</string>
-		</dict>
-		<key>6875C908-A847-4F91-BA32-10586FAB761D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6875C908-A847-4F91-BA32-10586FAB761D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276328.49610496</real>
-			<key>timeStoppedRecording</key>
-			<real>616276329.681036</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>6875C908-A847-4F91-BA32-10586FAB761D</string>
-		</dict>
-		<key>716D66AF-9797-4BEF-833D-C8F4C87DDE57</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>716D66AF-9797-4BEF-833D-C8F4C87DDE57.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276345.07142198</real>
-			<key>timeStoppedRecording</key>
-			<real>616276348.59608805</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>716D66AF-9797-4BEF-833D-C8F4C87DDE57</string>
-		</dict>
-		<key>71EB5541-AB21-4E14-9CAF-D51CA7310782</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>71EB5541-AB21-4E14-9CAF-D51CA7310782.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270419.29607606</real>
-			<key>timeStoppedRecording</key>
-			<real>616270419.38043201</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>71EB5541-AB21-4E14-9CAF-D51CA7310782</string>
-		</dict>
-		<key>7286A7B6-1803-4D03-960E-3EB347E5BD3D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7286A7B6-1803-4D03-960E-3EB347E5BD3D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270283.14076304</real>
-			<key>timeStoppedRecording</key>
-			<real>616270287.09393704</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>7286A7B6-1803-4D03-960E-3EB347E5BD3D</string>
-		</dict>
-		<key>7E5EFEB4-F8F4-4A99-825C-0354D437F4D3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7E5EFEB4-F8F4-4A99-825C-0354D437F4D3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276751.51312697</real>
-			<key>timeStoppedRecording</key>
-			<real>616276753.11355805</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>7E5EFEB4-F8F4-4A99-825C-0354D437F4D3</string>
-		</dict>
-		<key>858935AA-BD9B-4580-A531-77DF59802C0D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>858935AA-BD9B-4580-A531-77DF59802C0D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272825.88883698</real>
-			<key>timeStoppedRecording</key>
-			<real>616272828.90238404</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>858935AA-BD9B-4580-A531-77DF59802C0D</string>
-		</dict>
-		<key>8A9BA601-5E79-4508-BBFB-ADF61E8E9A46</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8A9BA601-5E79-4508-BBFB-ADF61E8E9A46.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276478.77731097</real>
-			<key>timeStoppedRecording</key>
-			<real>616276481.66934395</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>8A9BA601-5E79-4508-BBFB-ADF61E8E9A46</string>
-		</dict>
-		<key>981DD33B-F4B5-4E88-B3BC-AD0A84A05599</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>981DD33B-F4B5-4E88-B3BC-AD0A84A05599.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616200497.89365804</real>
-			<key>timeStoppedRecording</key>
-			<real>616200501.03838205</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>981DD33B-F4B5-4E88-B3BC-AD0A84A05599</string>
-		</dict>
-		<key>BE71CC7E-022F-49BB-8817-C50E7213C2C2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>BE71CC7E-022F-49BB-8817-C50E7213C2C2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270374.13813698</real>
-			<key>timeStoppedRecording</key>
-			<real>616270376.99560595</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>BE71CC7E-022F-49BB-8817-C50E7213C2C2</string>
-		</dict>
-		<key>C6CE65AA-65DE-410D-B46C-31AF1A1FBA1B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C6CE65AA-65DE-410D-B46C-31AF1A1FBA1B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616273492.99966598</real>
-			<key>timeStoppedRecording</key>
-			<real>616273495.80166698</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>C6CE65AA-65DE-410D-B46C-31AF1A1FBA1B</string>
-		</dict>
-		<key>DA1DFFC6-A210-4102-AF17-617493C2EF2F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DA1DFFC6-A210-4102-AF17-617493C2EF2F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272867.40704298</real>
-			<key>timeStoppedRecording</key>
-			<real>616272867.48229599</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>DA1DFFC6-A210-4102-AF17-617493C2EF2F</string>
-		</dict>
-		<key>E06F4AE3-DDA2-4C01-A008-D923F7F93302</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E06F4AE3-DDA2-4C01-A008-D923F7F93302.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272336.17992496</real>
-			<key>timeStoppedRecording</key>
-			<real>616272336.38963902</real>
-			<key>title</key>
-			<string>Build NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>E06F4AE3-DDA2-4C01-A008-D923F7F93302</string>
+			<string>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C</string>
 		</dict>
 	</dict>
 </dict>

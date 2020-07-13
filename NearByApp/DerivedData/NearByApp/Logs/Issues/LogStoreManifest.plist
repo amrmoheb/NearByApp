@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>16817AED-C13A-45A5-99AA-F7A9948A03F9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>16817AED-C13A-45A5-99AA-F7A9948A03F9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>NearByApp-ejluaxmhjfpuaffzbapfnkvjaadq</string>
+			<key>timeStartedRecording</key>
+			<real>616331110.76643395</real>
+			<key>timeStoppedRecording</key>
+			<real>616331115.208884</real>
+			<key>title</key>
+			<string>Build target NearByApp</string>
+			<key>uniqueIdentifier</key>
+			<string>16817AED-C13A-45A5-99AA-F7A9948A03F9</string>
+		</dict>
 		<key>22E35B65-624A-4486-92B1-4AA1F7306796</key>
 		<dict>
 			<key>className</key>
@@ -33,34 +61,6 @@
 			<string>Build target Pods-NearByApp</string>
 			<key>uniqueIdentifier</key>
 			<string>22E35B65-624A-4486-92B1-4AA1F7306796</string>
-		</dict>
-		<key>35DDD725-1E8D-4ED9-8C53-283A3E9154C5</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>35DDD725-1E8D-4ED9-8C53-283A3E9154C5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>NearByApp-ejluaxmhjfpuaffzbapfnkvjaadq</string>
-			<key>timeStartedRecording</key>
-			<real>616277084.41653001</real>
-			<key>timeStoppedRecording</key>
-			<real>616277088.08721602</real>
-			<key>title</key>
-			<string>Build target NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>35DDD725-1E8D-4ED9-8C53-283A3E9154C5</string>
 		</dict>
 		<key>6C68B5D1-E3B3-4012-8B75-8D5967FC94AE</key>
 		<dict>

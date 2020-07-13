@@ -13,7 +13,6 @@ depends-top-level:
 - "String"
 - "StringLiteralType"
 - !private "UnicodeScalarType"
-- !private "print"
 depends-member:
 - !private ["SK", "init"]
 - !private ["s7CVarArgP", "init"]
@@ -42,7 +41,6 @@ depends-member:
 - !private ["9NearByApp13NetworkRouterO", "NetworkRouter"]
 - ["9NearByApp13NetworkRouterO", "String"]
 - ["9NearByApp13NetworkRouterO", "baseURLString"]
-- !private ["9NearByApp13NetworkRouterO", "print"]
 - !private ["Sm", "init"]
 - !private ["ST", "init"]
 - !private ["SS", "init"]

@@ -26,7 +26,8 @@ class NearByPlaceCell: UITableViewCell {
         // Configure the view for the selected state
     }
   
-    func SetImage(Photo: Data)  {
+    func SetImage(Photo: Data)
+    {
     
       self.Photo.image = UIImage(data: Photo)
         

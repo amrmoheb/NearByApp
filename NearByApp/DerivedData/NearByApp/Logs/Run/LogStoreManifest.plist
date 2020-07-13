@@ -6,108 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0691AB30-BFBE-434D-AEFD-6A24F92001B3</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>0691AB30-BFBE-434D-AEFD-6A24F92001B3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616273495.80659294</real>
-			<key>timeStoppedRecording</key>
-			<real>616275045.73520398</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>0691AB30-BFBE-434D-AEFD-6A24F92001B3</string>
-		</dict>
-		<key>0F85E119-289B-405E-BF17-B752552AEB6B</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>0F85E119-289B-405E-BF17-B752552AEB6B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270376.99979699</real>
-			<key>timeStoppedRecording</key>
-			<real>616270415.16755605</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>0F85E119-289B-405E-BF17-B752552AEB6B</string>
-		</dict>
-		<key>117A4908-CF55-41F4-B455-E0E914F9381D</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>117A4908-CF55-41F4-B455-E0E914F9381D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616269336.13210106</real>
-			<key>timeStoppedRecording</key>
-			<real>616269382.71678197</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>117A4908-CF55-41F4-B455-E0E914F9381D</string>
-		</dict>
 		<key>20740FEA-FBF5-4384-8036-DF526F5E3680</key>
 		<dict>
 			<key>className</key>
@@ -142,7 +40,7 @@
 			<key>uniqueIdentifier</key>
 			<string>20740FEA-FBF5-4384-8036-DF526F5E3680</string>
 		</dict>
-		<key>2376FFDB-99B8-424B-BD67-AD1EE465C597</key>
+		<key>2E843555-08D9-440A-82B5-6C62CEB55BF1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2376FFDB-99B8-424B-BD67-AD1EE465C597.xcactivitylog</string>
+			<string>2E843555-08D9-440A-82B5-6C62CEB55BF1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +66,15 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616276504.43482697</real>
+			<real>616328862.73329401</real>
 			<key>timeStoppedRecording</key>
-			<real>616276535.330881</real>
+			<real>616331108.65320802</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2376FFDB-99B8-424B-BD67-AD1EE465C597</string>
+			<string>2E843555-08D9-440A-82B5-6C62CEB55BF1</string>
 		</dict>
-		<key>29F37DE5-562D-4724-9EEC-97782EAFF3AF</key>
+		<key>51AA0E12-E83B-427C-A406-9B41ED81A0B6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>29F37DE5-562D-4724-9EEC-97782EAFF3AF.xcactivitylog</string>
+			<string>51AA0E12-E83B-427C-A406-9B41ED81A0B6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +100,15 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616276348.60193503</real>
+			<real>616328844.54851794</real>
 			<key>timeStoppedRecording</key>
-			<real>616276471.90823698</real>
+			<real>616328846.77847302</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>29F37DE5-562D-4724-9EEC-97782EAFF3AF</string>
+			<string>51AA0E12-E83B-427C-A406-9B41ED81A0B6</string>
 		</dict>
-		<key>2B2BCE83-C484-4B35-8031-9F76F8D1DBB7</key>
+		<key>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2B2BCE83-C484-4B35-8031-9F76F8D1DBB7.xcactivitylog</string>
+			<string>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,387 +134,13 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616275090.13845396</real>
+			<real>616331115.22903001</real>
 			<key>timeStoppedRecording</key>
-			<real>616276328.73634005</real>
+			<real>616331149.32127404</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2B2BCE83-C484-4B35-8031-9F76F8D1DBB7</string>
-		</dict>
-		<key>6C59E7E4-6AD7-4B5B-8E97-833C87D51FC9</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>6C59E7E4-6AD7-4B5B-8E97-833C87D51FC9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276753.1178</real>
-			<key>timeStoppedRecording</key>
-			<real>616277081.77452397</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>6C59E7E4-6AD7-4B5B-8E97-833C87D51FC9</string>
-		</dict>
-		<key>81CBB648-C97E-4809-A812-49A063361DEA</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>81CBB648-C97E-4809-A812-49A063361DEA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272615.46638596</real>
-			<key>timeStoppedRecording</key>
-			<real>616272814.54251397</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>81CBB648-C97E-4809-A812-49A063361DEA</string>
-		</dict>
-		<key>8345D6A9-C549-4BC2-B4CD-1C5D374FF743</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>8345D6A9-C549-4BC2-B4CD-1C5D374FF743.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272336.50864005</real>
-			<key>timeStoppedRecording</key>
-			<real>616272427.42571402</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>8345D6A9-C549-4BC2-B4CD-1C5D374FF743</string>
-		</dict>
-		<key>84FA0798-8571-42FF-8778-73646710F1AE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>84FA0798-8571-42FF-8778-73646710F1AE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616276481.67316902</real>
-			<key>timeStoppedRecording</key>
-			<real>616276484.83252203</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>84FA0798-8571-42FF-8778-73646710F1AE</string>
-		</dict>
-		<key>85B3441A-E6F1-4D57-9B8F-6B01114B2782</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>85B3441A-E6F1-4D57-9B8F-6B01114B2782.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616273380.43119299</real>
-			<key>timeStoppedRecording</key>
-			<real>616273492.576401</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>85B3441A-E6F1-4D57-9B8F-6B01114B2782</string>
-		</dict>
-		<key>9AF04D6C-47E5-4735-9667-295009450D4C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9AF04D6C-47E5-4735-9667-295009450D4C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272828.90714598</real>
-			<key>timeStoppedRecording</key>
-			<real>616272832.02443099</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>9AF04D6C-47E5-4735-9667-295009450D4C</string>
-		</dict>
-		<key>A7B3505F-0CAF-444A-9667-800F6EC36871</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A7B3505F-0CAF-444A-9667-800F6EC36871.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616200291.27711403</real>
-			<key>timeStoppedRecording</key>
-			<real>616200484.66075504</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>A7B3505F-0CAF-444A-9667-800F6EC36871</string>
-		</dict>
-		<key>CDC28D18-0EA4-4B60-909B-EF4F75D01EA8</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>CDC28D18-0EA4-4B60-909B-EF4F75D01EA8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272428.04867005</real>
-			<key>timeStoppedRecording</key>
-			<real>616272610.62710404</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>CDC28D18-0EA4-4B60-909B-EF4F75D01EA8</string>
-		</dict>
-		<key>EB89FEBD-7267-48AE-97BC-4D5948724217</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>EB89FEBD-7267-48AE-97BC-4D5948724217.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270287.09976196</real>
-			<key>timeStoppedRecording</key>
-			<real>616270373.58389294</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>EB89FEBD-7267-48AE-97BC-4D5948724217</string>
-		</dict>
-		<key>F3B31CF8-EA08-48EB-BED0-E6BB27EE9B75</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F3B31CF8-EA08-48EB-BED0-E6BB27EE9B75.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616272867.48628104</real>
-			<key>timeStoppedRecording</key>
-			<real>616273375.64131403</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>F3B31CF8-EA08-48EB-BED0-E6BB27EE9B75</string>
-		</dict>
-		<key>F6A7BCAB-3B7A-4C24-B358-48745F822388</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>F6A7BCAB-3B7A-4C24-B358-48745F822388.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616270419.38526905</real>
-			<key>timeStoppedRecording</key>
-			<real>616272335.60190105</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>F6A7BCAB-3B7A-4C24-B358-48745F822388</string>
+			<string>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F</string>
 		</dict>
 	</dict>
 </dict>

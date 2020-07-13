@@ -32,27 +32,23 @@ class NetworkLayer {
     public  func GetRequest<T:Decodable>( Model: T.Type,RequestConfiq: NetworkRouter,completionHandler: @escaping  CompletionHandler)
       {
         
-       var MinValue  = "99"
+
         let request = AF.request(RequestConfiq.GetUrl())
-       // var utf8Text = ""
+    
         
        request.responseJSON
         {
             data  in
-           // print(RequestConfiq.GetUrl())
-           // print("mydata")
-            //print(data)
-              //  print(Model)
+          
 
             switch data.result {
             case .failure(let error):
-             // self.NetworkErrorHandle(ErrorMessage :" Check your Internet Connection ")
                completionHandler(self.AnyModel,false)
               return
                 // Do your code here...
 
             case .success(_):
-                print( "")
+                print( "success")
             }
         
             do{

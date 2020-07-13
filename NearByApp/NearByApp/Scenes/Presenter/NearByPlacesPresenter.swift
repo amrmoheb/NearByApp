@@ -10,40 +10,36 @@ import Foundation
 import UIKit
 import CoreLocation
 protocol  NearByPlacesView : class  {
-  //   func ShowAlert(Message :String)
-   // func ShowLoader()
     func ReloadNearByList()
     func ShowLoader()
     func ShowAlert(Message: String)
     func DismissLoader()
     func UpdateModebtnTitle(value :String)
     func UpdateCurrwntModeLabel(value :String)
-     func StartLocationMonitoring()
+    func StartLocationMonitoring()
     func StopLocationMonitoring()
 }
 class NearByPlacesPresenter {
     
-      private weak var View : NearByPlacesView?
-      private  var Interactor = NearByPlacesInteractor()
+    private weak var View : NearByPlacesView?
+    private  var Interactor = NearByPlacesInteractor()
     var NearByPlaces = NearByPlacesResponseModel()
-      var NearByPlacesPhotosData = MarkPhotosResponseModel()
+    var NearByPlacesPhotosData = MarkPhotosResponseModel()
     var PhotosList = [Data]()
     var NearByPlacesCount = 0
     var CurrentMode = "RealTime"
     var IsRealTime = true
-    init(View : NearByPlacesView) {
+    init(View : NearByPlacesView)
+    {
          self.View = View
-     }
-    
+    }
+    // Get the nearst places
     func GetNearByPlaces(Lat : String , Lang: String) {
         Interactor.GetNearByPlaces(Lat: Lat, Lang: Lang,  completionHandler: {
                respose,IsOnline in
-            //   print(respose)
-            //   print(IsOnline)
-               
-            //   let nearByPlacesView = self.View as? NearByPlacesView
-               if(!IsOnline){
-              //    basicInfoView?.ShowAlert(Message: "Check the internet connection")
+     
+               if(!IsOnline)
+               {
                 self.View?.ShowAlert(Message: "Something went Wrong !! ")
                    return
                }
@@ -66,21 +62,18 @@ class NearByPlacesPresenter {
             {
                 self.View?.ShowAlert(Message: "No data Found !! ")
             }
-           
-           //    print(  self.NearByPlacesCount)
-            
+                       
            })
        }
+    // Get the mark image by ID
     func GetMarkImage(MarkID : String) {
          var PhotoURL = ""
          Interactor.GetMarkPhoto(MarkID: MarkID,  completionHandler: {
                 respose,IsOnline in
-              //  print(respose)
-               // print(IsOnline)
-                
-              //  let nearByPlacesView = self.View as? NearByPlacesCellView
-                if(!IsOnline){
-               //    basicInfoView?.ShowAlert(Message: "Check the internet connection")
+
+                if(!IsOnline)
+                {
+
                     return
                 }
                 self.NearByPlacesPhotosData = respose as! MarkPhotosResponseModel
@@ -139,8 +132,9 @@ class NearByPlacesPresenter {
             })
         }
      
-     
-     func LoadImage(URl : String)  {
+     // Download image
+     func LoadImage(URl : String)
+     {
          Interactor.DownLoadImage(ImageURL: URl, completionHandler: {
              respose,IsOnline in
      
@@ -164,7 +158,9 @@ class NearByPlacesPresenter {
              
          })
      }
-    func GetNextPhoto() {
+    // determine the ID of next photo and load it
+    func GetNextPhoto()
+    {
         if(self.PhotosList.count < self.NearByPlacesCount)
                        {
                            if let MarkItemID = self.NearByPlaces.response?.groups?[0].items?[self.PhotosList.count].venue?.id
@@ -180,52 +176,66 @@ class NearByPlacesPresenter {
                             self.View?.ReloadNearByList()
                        }
     }
-    func AppendDefaultImage()  {
+    // add new image to photolist
+    func AppendDefaultImage()
+    {
         print("DefaultAppended")
         PhotosList.append(UIImage(named: "default-store")?.pngData() ?? Data())
          self.View?.ReloadNearByList()
         self.GetNextPhoto()
         
     }
-    func AppendNOQutaImage()  {
+    // if quata exceeded load NOQuta image
+    func AppendNOQutaImage()
+    {
           print("DefaultAppended")
           PhotosList.append(UIImage(named: "NoQuta")?.pngData() ?? Data())
          self.View?.ReloadNearByList()
           self.GetNextPhoto()
       }
-    func GetNearByPlacesCount() -> Int {
+    // Get the Count of Loaded Places
+    func GetNearByPlacesCount() -> Int
+    {
         return self.PhotosList.count
     }
-    func GetMarkPhoto(index : Int) -> Data {
+    // retern the photo of spasific index
+    func GetMarkPhoto(index : Int) -> Data
+    {
 
           return PhotosList[index]
       }
-    func GetMarkID(index : Int) -> String {
+    // get place id of spasific index
+    func GetMarkID(index : Int) -> String
+    {
         print("index = " + String(index) )
         if let id =  self.NearByPlaces.response?.groups?[0].items?[index].venue?.id
                {
-             //   print(id)
                 return String(id)
                }
        
         return ""
     }
-    func GetMarkName(index : Int) -> String {
-       // print(index)
+    //get the name of place
+    func GetMarkName(index : Int) -> String
+    {
         if let name =  self.NearByPlaces.response?.groups?[0].items?[index].venue?.name
               {
                return name
               }
         return ""
     }
-    func GetMarkAdress(index : Int) -> String {
+    // get the address pf place
+    func GetMarkAdress(index : Int) -> String
+    {
         if let address =  self.NearByPlaces.response?.groups?[0].items?[index].venue?.location?.address
                {
                 return address
                }
            return ""
        }
-    func UpdateMode()   {
+    // update current mode (realtime , single update)
+    func UpdateMode()
+    {
           let mode = Interactor.GetModeSwitchValue()
               
               if(mode == "" || mode == "RealTime")
@@ -244,7 +254,9 @@ class NearByPlacesPresenter {
               }
         
     }
-    func ModeBtnClicked() {
+    // triggered when swich mode btn clicked
+    func ModeBtnClicked()
+    {
       if(IsRealTime)
       {
         SetOneUpdateMode()
@@ -255,20 +267,21 @@ class NearByPlacesPresenter {
        }
         UpdateMode()
     }
-    func SetOneUpdateMode()  {
+    // save single update mode in memmory
+    func SetOneUpdateMode()
+    {
         
         Interactor.SaveModeSwitchValue(value: "SingleUpdate")
         IsRealTime = false
      
     }
-    func SetRealTimeMode() {
+    // save realtime mode in memmory
+    func SetRealTimeMode()
+    {
         
         Interactor.SaveModeSwitchValue(value: "RealTime")
         IsRealTime = true
       
     }
-    func IsRealTimeMode() -> Bool
-    {
-        return IsRealTime
-    }
+
 }
