@@ -11,6 +11,7 @@ provides-member:
 provides-dynamic-lookup:
 - "AppendDefaultImage"
 - "AppendNOQutaImage"
+- "CheckOnMode"
 - "CurrentMode"
 - "GetMarkAdress"
 - "GetMarkID"
@@ -196,6 +197,7 @@ depends-member:
 - ["9NearByApp0aB16PlacesInteractorC", "init"]
 - ["9NearByApp0aB15PlacesPresenterC", "AppendDefaultImage"]
 - ["9NearByApp0aB15PlacesPresenterC", "AppendNOQutaImage"]
+- ["9NearByApp0aB15PlacesPresenterC", "CheckOnMode"]
 - ["9NearByApp0aB15PlacesPresenterC", "CurrentMode"]
 - ["9NearByApp0aB15PlacesPresenterC", "Data"]
 - ["9NearByApp0aB15PlacesPresenterC", "GetMarkAdress"]
@@ -411,4 +413,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d61f954f84fc4b6dd4cdc989f5cad317"
+interface-hash: "a522789036b51abd9b9d91ecb3adb932"

@@ -39,5 +39,6 @@ var networkManger = NetworkLayer()
     func GetModeSwitchValue() -> String  {
         return UserDefaults.standard.string(forKey: "ModeSwitch") ?? ""
       }
+   
     
 }

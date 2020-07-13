@@ -22,6 +22,8 @@ var presenter : NearByPlacesPresenter!
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter = NearByPlacesPresenter(View: self)
+        
+        presenter.UpdateMode()
         StartLocationMonitoring()
 
     }

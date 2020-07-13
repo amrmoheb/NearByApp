@@ -243,14 +243,14 @@ class NearByPlacesPresenter {
                 IsRealTime = true
                 View?.UpdateModebtnTitle(value: "SingleUpdate")
                 View?.UpdateCurrwntModeLabel(value: "RealTime")
-                  View?.StartLocationMonitoring()
+                
               }
               else if(mode == "SingleUpdate")
               {
                 IsRealTime = false
                   View?.UpdateModebtnTitle(value: "RealTime")
                  View?.UpdateCurrwntModeLabel(value: "SingleUpdate")
-                   View?.StopLocationMonitoring()
+                   
               }
         
     }
@@ -273,6 +273,7 @@ class NearByPlacesPresenter {
         
         Interactor.SaveModeSwitchValue(value: "SingleUpdate")
         IsRealTime = false
+        View?.StopLocationMonitoring()
      
     }
     // save realtime mode in memmory
@@ -281,7 +282,16 @@ class NearByPlacesPresenter {
         
         Interactor.SaveModeSwitchValue(value: "RealTime")
         IsRealTime = true
+          View?.StartLocationMonitoring()
       
     }
+    func CheckOnMode()
+    {
+        if(!IsRealTime)
+        {
+            View?.StopLocationMonitoring()
+        }
+         
+       }
 
 }

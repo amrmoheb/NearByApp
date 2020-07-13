@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>033900B0-DAD5-4FC5-B759-8CC54E06F95A</key>
+		<key>19710F08-1AC8-404D-816E-3B9DC8C2195B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>033900B0-DAD5-4FC5-B759-8CC54E06F95A.xcactivitylog</string>
+			<string>19710F08-1AC8-404D-816E-3B9DC8C2195B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616277084.29546201</real>
+			<real>616369419.21607995</real>
 			<key>timeStoppedRecording</key>
-			<real>616277088.11672497</real>
+			<real>616369419.32089996</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>033900B0-DAD5-4FC5-B759-8CC54E06F95A</string>
+			<string>19710F08-1AC8-404D-816E-3B9DC8C2195B</string>
+		</dict>
+		<key>253635E5-B729-4326-85B8-437C723714BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>253635E5-B729-4326-85B8-437C723714BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NearByApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NearByApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build NearByApp</string>
+			<key>timeStartedRecording</key>
+			<real>616368545.51282406</real>
+			<key>timeStoppedRecording</key>
+			<real>616368545.61697102</real>
+			<key>title</key>
+			<string>Build NearByApp</string>
+			<key>uniqueIdentifier</key>
+			<string>253635E5-B729-4326-85B8-437C723714BF</string>
 		</dict>
 		<key>6BB34298-EACB-40F5-B56F-2C82AD6570FB</key>
 		<dict>
@@ -74,7 +108,7 @@
 			<key>uniqueIdentifier</key>
 			<string>6BB34298-EACB-40F5-B56F-2C82AD6570FB</string>
 		</dict>
-		<key>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9</key>
+		<key>825305E6-05ED-42C1-8015-1D264D5575A6</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9.xcactivitylog</string>
+			<string>825305E6-05ED-42C1-8015-1D264D5575A6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +134,15 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616328862.64721298</real>
+			<real>616370368.66960394</real>
 			<key>timeStoppedRecording</key>
-			<real>616328862.72968197</real>
+			<real>616370372.35618198</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>83EC0EB3-8B5F-4C91-B1A1-933474D37BB9</string>
+			<string>825305E6-05ED-42C1-8015-1D264D5575A6</string>
 		</dict>
-		<key>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C</key>
+		<key>9A174EF3-6BC3-458D-BBC3-A6572E6C1B75</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C.xcactivitylog</string>
+			<string>9A174EF3-6BC3-458D-BBC3-A6572E6C1B75.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,13 +168,13 @@
 			<key>signature</key>
 			<string>Build NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616328841.878479</real>
+			<real>616368399.73609197</real>
 			<key>timeStoppedRecording</key>
-			<real>616328844.54400396</real>
+			<real>616368403.81063497</real>
 			<key>title</key>
 			<string>Build NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>EDDE662D-E06F-4EEF-8601-D99BFDF92D3C</string>
+			<string>9A174EF3-6BC3-458D-BBC3-A6572E6C1B75</string>
 		</dict>
 	</dict>
 </dict>

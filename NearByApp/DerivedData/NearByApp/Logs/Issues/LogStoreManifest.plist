@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>16817AED-C13A-45A5-99AA-F7A9948A03F9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>16817AED-C13A-45A5-99AA-F7A9948A03F9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>NearByApp-ejluaxmhjfpuaffzbapfnkvjaadq</string>
-			<key>timeStartedRecording</key>
-			<real>616331110.76643395</real>
-			<key>timeStoppedRecording</key>
-			<real>616331115.208884</real>
-			<key>title</key>
-			<string>Build target NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>16817AED-C13A-45A5-99AA-F7A9948A03F9</string>
-		</dict>
 		<key>22E35B65-624A-4486-92B1-4AA1F7306796</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +61,34 @@
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
 			<string>6C68B5D1-E3B3-4012-8B75-8D5967FC94AE</string>
+		</dict>
+		<key>DB24C035-1FDB-4791-82B3-5404577BA09D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>DB24C035-1FDB-4791-82B3-5404577BA09D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>NearByApp-ejluaxmhjfpuaffzbapfnkvjaadq</string>
+			<key>timeStartedRecording</key>
+			<real>616370368.76516998</real>
+			<key>timeStoppedRecording</key>
+			<real>616370372.33871102</real>
+			<key>title</key>
+			<string>Build target NearByApp</string>
+			<key>uniqueIdentifier</key>
+			<string>DB24C035-1FDB-4791-82B3-5404577BA09D</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

@@ -27,7 +27,7 @@ extension NearByPlacesVC : CLLocationManagerDelegate
            DebugText.text +=  "   " + String( lastLocation.coordinate.latitude) + "," + String( lastLocation.coordinate.longitude)
            presenter.GetNearByPlaces(Lat: String( lastLocation.coordinate.latitude), Lang: String(
                lastLocation.coordinate.longitude))
-            presenter.UpdateMode()
+           presenter.CheckOnMode() 
          
           // Do something with the location.
        }
