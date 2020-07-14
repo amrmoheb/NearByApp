@@ -7,7 +7,6 @@ provides-member:
 - ["9NearByApp0aB8PlacesVCC", ""]
 provides-dynamic-lookup:
 - "CurrentModeLabel"
-- "DebugText"
 - "ModeBtn"
 - "ModeBtnClicked"
 - "NearByList"
@@ -22,7 +21,6 @@ depends-top-level:
 - "UIBarButtonItem"
 - "UILabel"
 - "UITableView"
-- "UITextView"
 - "UIViewController"
 depends-member:
 - ["So17CLLocationManagerC", "init"]
@@ -93,7 +91,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "CLLocationManager"]
 - ["So8NSObjectC", "CurrentModeLabel"]
-- ["So8NSObjectC", "DebugText"]
 - ["So8NSObjectC", "ModeBtn"]
 - ["So8NSObjectC", "ModeBtnClicked"]
 - ["So8NSObjectC", "NearByList"]
@@ -102,7 +99,6 @@ depends-member:
 - ["So8NSObjectC", "UIBarButtonItem"]
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UITableView"]
-- ["So8NSObjectC", "UITextView"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "locationManager"]
 - ["So8NSObjectC", "presenter"]
@@ -119,7 +115,6 @@ depends-member:
 - !private ["9NearByApp0aB15PlacesPresenterC", "init"]
 - ["9NearByApp0aB8PlacesVCC", "CLLocationManager"]
 - ["9NearByApp0aB8PlacesVCC", "CurrentModeLabel"]
-- ["9NearByApp0aB8PlacesVCC", "DebugText"]
 - ["9NearByApp0aB8PlacesVCC", "ModeBtn"]
 - ["9NearByApp0aB8PlacesVCC", "ModeBtnClicked"]
 - ["9NearByApp0aB8PlacesVCC", "NearByList"]
@@ -128,7 +123,6 @@ depends-member:
 - ["9NearByApp0aB8PlacesVCC", "UIBarButtonItem"]
 - ["9NearByApp0aB8PlacesVCC", "UILabel"]
 - ["9NearByApp0aB8PlacesVCC", "UITableView"]
-- ["9NearByApp0aB8PlacesVCC", "UITextView"]
 - ["9NearByApp0aB8PlacesVCC", "deinit"]
 - ["9NearByApp0aB8PlacesVCC", "init"]
 - ["9NearByApp0aB8PlacesVCC", "locationManager"]
@@ -166,7 +160,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "CLLocationManager"]
 - ["So11UIResponderC", "CurrentModeLabel"]
-- ["So11UIResponderC", "DebugText"]
 - ["So11UIResponderC", "ModeBtn"]
 - ["So11UIResponderC", "ModeBtnClicked"]
 - ["So11UIResponderC", "NearByList"]
@@ -175,7 +168,6 @@ depends-member:
 - ["So11UIResponderC", "UIBarButtonItem"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "UITableView"]
-- ["So11UIResponderC", "UITextView"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "locationManager"]
 - ["So11UIResponderC", "presenter"]
@@ -218,7 +210,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So16UIViewControllerC", "CLLocationManager"]
 - ["So16UIViewControllerC", "CurrentModeLabel"]
-- ["So16UIViewControllerC", "DebugText"]
 - ["So16UIViewControllerC", "ModeBtn"]
 - ["So16UIViewControllerC", "ModeBtnClicked"]
 - ["So16UIViewControllerC", "NearByList"]
@@ -227,7 +218,6 @@ depends-member:
 - ["So16UIViewControllerC", "UIBarButtonItem"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "UITableView"]
-- ["So16UIViewControllerC", "UITextView"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "locationManager"]
@@ -321,4 +311,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "19a8fef2caf0603998f829d8bfe06f73"
+interface-hash: "a58754d275b676b9f3fa69c543eab1c9"

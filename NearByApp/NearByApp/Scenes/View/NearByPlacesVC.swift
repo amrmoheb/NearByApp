@@ -14,7 +14,7 @@ var presenter : NearByPlacesPresenter!
     
     @IBOutlet weak var CurrentModeLabel: UILabel!
     @IBOutlet weak var ModeBtn: UIBarButtonItem!
-    @IBOutlet weak var DebugText: UITextView!
+  
     @IBOutlet weak var NearByList: UITableView!
     
     let locationManager = CLLocationManager()

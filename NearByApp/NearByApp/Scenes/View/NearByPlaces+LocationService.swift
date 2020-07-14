@@ -24,7 +24,7 @@ extension NearByPlacesVC : CLLocationManagerDelegate
        func locationManager(_ manager: CLLocationManager,  didUpdateLocations locations: [CLLocation]) {
           let lastLocation = locations.last!
            print(lastLocation.coordinate.latitude)
-           DebugText.text +=  "   " + String( lastLocation.coordinate.latitude) + "," + String( lastLocation.coordinate.longitude)
+        
            presenter.GetNearByPlaces(Lat: String( lastLocation.coordinate.latitude), Lang: String(
                lastLocation.coordinate.longitude))
            presenter.CheckOnMode() 

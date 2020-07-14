@@ -22,6 +22,7 @@ provides-dynamic-lookup:
 - "GetNearByPlacesCount"
 - "GetNextPhoto"
 - "Interactor"
+- "IsFirstRequest"
 - "IsRealTime"
 - "LoadImage"
 - "ModeBtnClicked"
@@ -210,6 +211,7 @@ depends-member:
 - ["9NearByApp0aB15PlacesPresenterC", "GetNextPhoto"]
 - ["9NearByApp0aB15PlacesPresenterC", "Int"]
 - !private ["9NearByApp0aB15PlacesPresenterC", "Interactor"]
+- ["9NearByApp0aB15PlacesPresenterC", "IsFirstRequest"]
 - ["9NearByApp0aB15PlacesPresenterC", "IsRealTime"]
 - ["9NearByApp0aB15PlacesPresenterC", "LoadImage"]
 - ["9NearByApp0aB15PlacesPresenterC", "MarkPhotosResponseModel"]
@@ -413,4 +415,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a522789036b51abd9b9d91ecb3adb932"
+interface-hash: "c9d0bb4da92bff0faa6d59caecd29858"

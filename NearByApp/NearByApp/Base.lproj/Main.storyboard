@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="115" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zFU-8Z-Umt">
-                                <rect key="frame" x="0.0" y="170" width="375" height="497"/>
+                                <rect key="frame" x="0.0" y="80.5" width="375" height="586.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MarkCell" rowHeight="115" id="xNC-Zt-93i" customClass="NearByPlaceCell" customModule="NearByApp" customModuleProvider="target">
@@ -69,13 +69,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="YST-xY-vhX"/>
                                 </connections>
                             </tableView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5cX-9f-eqm">
-                                <rect key="frame" x="0.0" y="80.5" width="375" height="67"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Mode : " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="oSj-Bo-Sau">
                                 <rect key="frame" x="20" y="44" width="335" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -86,17 +79,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zFU-8Z-Umt" secondAttribute="bottom" id="0X5-yS-C0f"/>
+                            <constraint firstItem="zFU-8Z-Umt" firstAttribute="top" secondItem="oSj-Bo-Sau" secondAttribute="bottom" constant="10" id="3AF-v4-k53"/>
                             <constraint firstItem="oSj-Bo-Sau" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HDW-eZ-qBT"/>
                             <constraint firstItem="oSj-Bo-Sau" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HJy-Sx-TIy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oSj-Bo-Sau" secondAttribute="trailing" constant="20" id="IzR-u0-558"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zFU-8Z-Umt" secondAttribute="trailing" id="Kkz-LO-69z"/>
                             <constraint firstItem="zFU-8Z-Umt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Md7-0N-lgy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5cX-9f-eqm" secondAttribute="trailing" id="Pex-HS-hwW"/>
-                            <constraint firstItem="5cX-9f-eqm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W23-1n-T5L"/>
-                            <constraint firstItem="5cX-9f-eqm" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="chZ-b7-RsL"/>
-                            <constraint firstItem="5cX-9f-eqm" firstAttribute="top" secondItem="oSj-Bo-Sau" secondAttribute="bottom" constant="10" id="fhu-ri-eQI"/>
                             <constraint firstItem="oSj-Bo-Sau" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.04" id="iqQ-QP-Gi8"/>
-                            <constraint firstItem="zFU-8Z-Umt" firstAttribute="top" secondItem="5cX-9f-eqm" secondAttribute="bottom" constant="22.5" id="le0-BA-Qt5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -109,7 +98,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="CurrentModeLabel" destination="oSj-Bo-Sau" id="oen-Xc-WHy"/>
-                        <outlet property="DebugText" destination="5cX-9f-eqm" id="H66-UC-iBz"/>
                         <outlet property="ModeBtn" destination="Vx1-fc-Ccz" id="6V0-MG-TC8"/>
                         <outlet property="NearByList" destination="zFU-8Z-Umt" id="0wP-oc-VhT"/>
                     </connections>

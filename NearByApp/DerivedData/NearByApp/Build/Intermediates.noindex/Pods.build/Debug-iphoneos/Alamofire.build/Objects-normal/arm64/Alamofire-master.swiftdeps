@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "bbee7af52941315a301128c86d24d335"
-build_time: [1594478648, 408596000]
+build_time: [1594733214, 729139000]
 inputs:
   "/Users/developer/Desktop/NearByApp/NearByApp/Pods/Alamofire/Source/AFError.swift": [1594395903, 429936503]
   "/Users/developer/Desktop/NearByApp/NearByApp/Pods/Alamofire/Source/Alamofire.swift": [1594395903, 442560635]

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2A6223BB-C276-406E-9083-F944CAF65E19</key>
+		<key>3DA3C2BC-C7BC-4797-AD6A-ACB8CB79411C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2A6223BB-C276-406E-9083-F944CAF65E19.xcactivitylog</string>
+			<string>3DA3C2BC-C7BC-4797-AD6A-ACB8CB79411C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616368545.62138796</real>
+			<real>616426910.364079</real>
 			<key>timeStoppedRecording</key>
-			<real>616368985.97068501</real>
+			<real>616427218.79071105</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2A6223BB-C276-406E-9083-F944CAF65E19</string>
+			<string>3DA3C2BC-C7BC-4797-AD6A-ACB8CB79411C</string>
 		</dict>
-		<key>2FD9EB5E-3CBD-4765-846A-0BD054048809</key>
+		<key>4CB8F5BA-C7C1-4F0B-848D-9B2E7E4A2F52</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2FD9EB5E-3CBD-4765-846A-0BD054048809.xcactivitylog</string>
+			<string>4CB8F5BA-C7C1-4F0B-848D-9B2E7E4A2F52.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616369419.32437503</real>
+			<real>616427222.82447803</real>
 			<key>timeStoppedRecording</key>
-			<real>616369886.14291096</real>
+			<real>616427326.251104</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2FD9EB5E-3CBD-4765-846A-0BD054048809</string>
+			<string>4CB8F5BA-C7C1-4F0B-848D-9B2E7E4A2F52</string>
 		</dict>
-		<key>33D774FB-5BE4-4020-B463-E533BB616073</key>
+		<key>517E5DCA-E5A7-4438-8046-B6541644AA5F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>33D774FB-5BE4-4020-B463-E533BB616073.xcactivitylog</string>
+			<string>517E5DCA-E5A7-4438-8046-B6541644AA5F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,13 +100,13 @@
 			<key>signature</key>
 			<string>Run NearByApp</string>
 			<key>timeStartedRecording</key>
-			<real>616368403.82924604</real>
+			<real>616426517.18908203</real>
 			<key>timeStoppedRecording</key>
-			<real>616368544.19463503</real>
+			<real>616426900.67963898</real>
 			<key>title</key>
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
-			<string>33D774FB-5BE4-4020-B463-E533BB616073</string>
+			<string>517E5DCA-E5A7-4438-8046-B6541644AA5F</string>
 		</dict>
 		<key>AB9DC226-4471-46AC-9FFD-C1DB81F2598D</key>
 		<dict>
@@ -141,40 +141,6 @@
 			<string>Run NearByApp</string>
 			<key>uniqueIdentifier</key>
 			<string>AB9DC226-4471-46AC-9FFD-C1DB81F2598D</string>
-		</dict>
-		<key>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NearByApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NearByApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run NearByApp</string>
-			<key>timeStartedRecording</key>
-			<real>616331115.22903001</real>
-			<key>timeStoppedRecording</key>
-			<real>616331149.32127404</real>
-			<key>title</key>
-			<string>Run NearByApp</string>
-			<key>uniqueIdentifier</key>
-			<string>ED5E9CCA-DD71-4EF2-85EA-2BF6CBA0E54F</string>
 		</dict>
 	</dict>
 </dict>

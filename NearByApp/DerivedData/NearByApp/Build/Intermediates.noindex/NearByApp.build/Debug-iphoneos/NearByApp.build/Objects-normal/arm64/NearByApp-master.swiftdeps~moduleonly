@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "b32310c0bcf9433dff61160b9f0c698f"
-build_time: [1594677568, 777456000]
+build_time: [1594734419, 681597000]
 inputs:
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Model/NetworkLayer/NetworkLayer.swift": [1594638248, 850912225]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Model/NearByPlaces/NearByPlacesResponseModel.swift": [1594584346, 923556209]
@@ -8,11 +8,11 @@ inputs:
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Model/NetworkLayer/NetworkRouter.swift": [1594638175, 241860152]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Model/NearByPlaces/MarkPhotosResponseModel.swift": [1594584253, 298789190]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlaceVC+TabelView.swift": [1594507484, 815443671]
-  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/Presenter/NearByPlacesPresenter.swift": [1594677565, 50690459]
-  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlaces+LocationService.swift": [1594677484, 581316274]
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/Presenter/NearByPlacesPresenter.swift": [1594734417, 502084100]
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlaces+LocationService.swift": [1594733688, 922703572]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/ViewController.swift": [1594390173, 165584736]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/Cells/NearByPlaceCell.swift": [1594638135, 324749250]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlacesVC+Presenter.swift": [1594584255, 658677883]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/AppDelegate.swift": [1594390173, 156944402]
-  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlacesVC.swift": [1594677303, 245155161]
+  "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/Scenes/View/NearByPlacesVC.swift": [1594733679, 520621606]
   "/Users/developer/Desktop/NearByApp/NearByApp/NearByApp/SceneDelegate.swift": [1594390173, 163066076]

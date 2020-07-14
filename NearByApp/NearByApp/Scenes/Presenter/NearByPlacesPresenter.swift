@@ -29,12 +29,18 @@ class NearByPlacesPresenter {
     var NearByPlacesCount = 0
     var CurrentMode = "RealTime"
     var IsRealTime = true
+    var IsFirstRequest = true
     init(View : NearByPlacesView)
     {
          self.View = View
     }
     // Get the nearst places
     func GetNearByPlaces(Lat : String , Lang: String) {
+        if(IsFirstRequest)
+        {
+        View?.ShowLoader()
+        IsFirstRequest = false
+        }
         Interactor.GetNearByPlaces(Lat: Lat, Lang: Lang,  completionHandler: {
                respose,IsOnline in
      
@@ -77,6 +83,7 @@ class NearByPlacesPresenter {
                     return
                 }
                 self.NearByPlacesPhotosData = respose as! MarkPhotosResponseModel
+            
              if let result = self.NearByPlacesPhotosData.response
              {
                  if let photos = result.photos
@@ -146,6 +153,10 @@ class NearByPlacesPresenter {
        
              if let ImageData = respose
              {
+                if(self.PhotosList.count == 0)
+                {
+                    self.View?.DismissLoader()
+                }
                 self.PhotosList.append(ImageData)
                  self.View?.ReloadNearByList()
             
@@ -179,6 +190,10 @@ class NearByPlacesPresenter {
     // add new image to photolist
     func AppendDefaultImage()
     {
+        if(PhotosList.count == 0)
+        {
+            View?.DismissLoader()
+        }
         print("DefaultAppended")
         PhotosList.append(UIImage(named: "default-store")?.pngData() ?? Data())
          self.View?.ReloadNearByList()
@@ -188,6 +203,10 @@ class NearByPlacesPresenter {
     // if quata exceeded load NOQuta image
     func AppendNOQutaImage()
     {
+        if(PhotosList.count == 0)
+        {
+            View?.DismissLoader()
+        }
           print("DefaultAppended")
           PhotosList.append(UIImage(named: "NoQuta")?.pngData() ?? Data())
          self.View?.ReloadNearByList()

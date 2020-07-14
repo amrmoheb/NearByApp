@@ -235,7 +235,6 @@ SWIFT_CLASS("_TtC9NearByApp15NearByPlaceCell")
 @end
 
 @class UIBarButtonItem;
-@class UITextView;
 @class UITableView;
 @class NSBundle;
 
@@ -243,7 +242,6 @@ SWIFT_CLASS("_TtC9NearByApp14NearByPlacesVC")
 @interface NearByPlacesVC : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified CurrentModeLabel;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified ModeBtn;
-@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified DebugText;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified NearByList;
 - (void)viewDidLoad;
 - (IBAction)ModeBtnClicked:(id _Nonnull)sender;
