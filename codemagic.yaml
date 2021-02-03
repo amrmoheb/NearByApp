@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "{{NearByApp}}"
+                XCODE_WORKSPACE: "{{NearByApp.xcworkspace}}"
                 XCODE_SCHEME: "{{NearByApp}}"
             xcode: latest
             cocoapods: default
